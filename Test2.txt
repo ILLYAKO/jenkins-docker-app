@@ -1,0 +1,4 @@
+The first time of using editor vi
+the second line
+i was pushed
+
