@@ -6,7 +6,7 @@ pipeline {
         booleanParam(name: 'executeTests', defaultValue: true)
     }
     tools{
-        maven 'Maven'
+        maven 'Maven 3.8.6'
     }
     environment {
         NEW_VERSION = '1.3.0'
