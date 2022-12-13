@@ -5,9 +5,9 @@ pipeline {
         choice(name: 'VERSION1', choices: ['1.1.0', '1.2.0', '1.3.0'])
         booleanParam(name: 'executeTests', defaultValue: true)
     }
-    tools{
-        maven 'Maven 3.8.6'
-    }
+    // tools{
+    //     maven 'Maven 3.8.6'
+    // }
     environment {
         NEW_VERSION = '1.3.0'
         SERVER_CREDENTIAS = credentials('server-credentials') // credentialID from jendins server 
